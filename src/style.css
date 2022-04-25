@@ -1,0 +1,67 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    background-color: maroon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#content {
+    /* color: red; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+.header {
+    height: 240px;
+
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.logo {
+    height: 200px;
+}
+
+.title {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.mainContainer {
+    background-color: whitesmoke;
+    height: 60vh; 
+
+    margin: 5vh 25vw;
+    padding: 48px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intro,
+.orderNow,
+.operatingHours {
+    font-size: 24px;
+    font-weight: bold;
+} 
+
+.orderNow {
+    height: 64px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    background-color: green;
+    border-radius: 12px;
+}
