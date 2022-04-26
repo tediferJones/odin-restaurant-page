@@ -5,8 +5,10 @@ import Menu from './menu.js';
 import Contact from './contact.js';
 
 Header()
-Home()
-document.querySelector('.homeTab').classList.add('active')
+// Home()
+// document.querySelector('.homeTab').classList.add('active')
+Contact()
+document.querySelector('.contactTab').classList.add('active') 
 
 // call header first, then use some funtion to dictate current display
 // add the event listeners to the header from here so u can easily utilize function with tab switching logic

@@ -45,6 +45,9 @@ html, body {
 
 .navLinks {
     color: white;
+    font-size: 18px;
+    font-weight: bold;
+
     background-color: inherit;
     border: none;
     outline: none;
@@ -82,11 +85,17 @@ html, body {
     align-items: center;
 
     box-shadow: 0px 10px 10px;
+    padding-bottom: 48px; 
 }
 
 .intro,
 .orderNow,
-.operatingHours {
+.operatingHours,
+.contact,
+.greeting,
+.phone,
+.email,
+.socialDialog {
     font-size: 24px;
     font-weight: bold;
     margin: 24px 48px; 
@@ -104,4 +113,8 @@ html, body {
 
     background-color: green;
     border-radius: 12px;
+}
+
+.socialLinks {
+    height: 128px;
 }
