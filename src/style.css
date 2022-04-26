@@ -1,29 +1,29 @@
 html, body {
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0;
     background-color: maroon;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
-#content {
-    /* color: red; */
-    /* display: flex;
+.header {
+    height: 20vh;
+    background-color: green;
+
+    display: flex;
     flex-direction: column;
-    justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
 }
 
-.header {
-    height: 240px;
-
-    background-color: green;
+.logoContainer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 48px;
+    gap: 48px; 
 }
 
 .logo {
-    height: 200px;
+    height: 10vh; 
 }
 
 .title {
@@ -32,17 +32,56 @@ html, body {
     font-weight: bold;
 }
 
-.mainContainer {
-    background-color: whitesmoke;
-    height: 60vh; 
+.navBar {
+    color: white;
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: center;
+    gap: 48px;
 
-    margin: 5vh 25vw;
-    padding: 48px;
+    overflow: hidden;
+}
+
+.navLinks {
+    color: white;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navBar button.active {
+    background-color: rgb(1, 83, 1);
+    padding: 24px; 
+}
+
+#content {
+    height: 80vh;
+    background: url('./pizza.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* maybe get rid of this */
+    overflow: scroll; 
+}
+
+.mainContainer {
+    background-color: whitesmoke; 
+    width: 60vw; 
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+
+    box-shadow: 0px 10px 10px;
 }
 
 .intro,
@@ -50,11 +89,12 @@ html, body {
 .operatingHours {
     font-size: 24px;
     font-weight: bold;
+    margin: 24px 48px; 
 } 
 
 .orderNow {
     height: 64px;
-    width: 100%;
+    width: 360px;
 
     display: flex;
     flex-direction: row-reverse;
