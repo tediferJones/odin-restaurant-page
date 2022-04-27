@@ -29,7 +29,7 @@ const contact = () => {
     socialDialog.innerHTML = 'You can also reach out to us on social media!'
     mainContainer.appendChild(socialDialog)
 
-    const socialLinks = new Image() //document.createElement('div')
+    const socialLinks = new Image()
     socialLinks.classList.add('socialLinks')
     socialLinks.src = SocialIcons
     mainContainer.appendChild(socialLinks)

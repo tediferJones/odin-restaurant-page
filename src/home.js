@@ -7,7 +7,7 @@ const home = () => {
     
     const intro = document.createElement('div')
     intro.classList.add('intro')
-    intro.innerHTML = `Hey I'm walking here! I'm actually crouching in an elevator shaft but anyways, it's me Johnny from John's Pizzeria in Chicago New Yawk, located in Moscow Japan!  We don't really make great pizza, I would hesitate to call it average, but people keep buying it so we keep making it!  Not sure how we're still in business?  We don't know either, but we know that we need more money!` 
+    intro.innerHTML = `Hey I'm walkin' here! I'm actually crouching in an elevator shaft but anyways, it's me Johnny from John's Pizzeria in Chicago New Yawk, located in Moscow Japan!  We don't really make great pizza, I would hesitate to call it average, but people keep buying it so we keep making it!  Not sure how we're still in business?  We don't know either, but we know that we need more money!` 
     mainContainer.appendChild(intro)
 
     const orderNow = document.createElement('div')
@@ -31,7 +31,7 @@ const home = () => {
 
     const operatingHours = document.createElement('div')
     operatingHours.classList.add('operatingHours')
-    operatingHours.innerHTML = 'Our Hours'
+    operatingHours.innerHTML = 'Our Hours:'
 
     const weekdays = document.createElement('div')
     weekdays.innerHTML = 'We\'re open  10AM to 2AM everyday! Including Holidays'

@@ -1,5 +1,4 @@
 html, body {
-    /* height: 100vh; */
     margin: 0;
     background-color: maroon;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -71,8 +70,7 @@ html, body {
     justify-content: center;
     align-items: center;
 
-    /* maybe get rid of this */
-    overflow: scroll; 
+    overflow-y: hidden; 
 }
 
 .mainContainer {
@@ -95,7 +93,11 @@ html, body {
 .greeting,
 .phone,
 .email,
-.socialDialog {
+.socialDialog,
+.specialsDialog,
+.specialsContainer,
+.toppingsDialog,
+.toppingsContainer {
     font-size: 24px;
     font-weight: bold;
     margin: 24px 48px; 
@@ -113,6 +115,19 @@ html, body {
 
     background-color: green;
     border-radius: 12px;
+}
+
+.specialsContainer,
+.toppingsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.toppings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .socialLinks {
